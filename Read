@@ -1,0 +1,15 @@
+#	**Simulating the Hodkgin Huxley Model of the Neuron**
+
+(Under Construction)
+
+
+
+This project is a recapitulation of my masters project, and also as an easy way for me to learn the C++ language.
+I have a few goals for this endeavour:
+
+1.	Building a quasi-general simulator of the HH equations of Neuronal Potential 
+2.	A way for to generate time series data in the form of text files. 
+3.	Possibly, a way to observe, in real time, the evolution of the action potential as a function of input current
+4.	A collection of mathematical models of the neuron (Fizhugh-Nagumo, Izhikevich, etc.) which can be called by a (hopefully) identical API.
+
+
