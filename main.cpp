@@ -10,5 +10,7 @@ int main(){
 	std::cout << beta_h(V) << std::endl;
 	std::cout << beta_m(V) << std::endl;
 	std::cout << beta_n(V) << std::endl;
+
+	std::cout << "hello world" << std::endl;
 }
 
