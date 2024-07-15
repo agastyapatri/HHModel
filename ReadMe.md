@@ -13,5 +13,7 @@ HHModel:
 
 ```
 
+##    **Notes**
 
-
+1.  Sinusodidal current defined, membrane voltage entities needed 
+2.  
