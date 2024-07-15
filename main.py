@@ -1,9 +1,14 @@
 import numpy as np
 import models 
-i = models.Current(amplitude = 10, time = [1 for i in range(10)])
-print(i)
+from utils.currents import  ConstantCurrent, SinusoidalCurrent
+import matplotlib.pyplot as plt 
+import timeit
 
+timeline =np.linspace(0, 10, 100) 
+start = timeit.default_timer()
+curr = SinusoidalCurrent(amplitude = 10 , time = timeline)
+end = timeit.default_timer()
+print(end - start)
 
-
-
-
+plt.plot(timeline, curr)
+plt.show()
